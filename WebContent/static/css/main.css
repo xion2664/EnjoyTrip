@@ -1,0 +1,245 @@
+:root {
+  --main-red: #e04141;
+  --sub-gray: #585858;
+  --space-white: #f3f3f3;
+  --font-black: #1a1a1a;
+}
+* {
+  color: var(--font-black);
+}
+
+/* header */
+
+header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: var(--main-red);
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  /* box-shadow: 0 2px 5px 0 lightgray;
+  background-color: white;
+  border-radius: 0 0 10px 10px; */
+  display: flex;
+  width: 60%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+#header-logo {
+  width: 130px;
+}
+
+.menu-space a {
+  margin: 0 10px;
+}
+.menu-icon img {
+  height: 30px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+}
+
+.dropdown-content a {
+  line-height: 24px;
+  display: block;
+  text-align: center;
+}
+
+#dropdown {
+  position: relative;
+}
+
+#dropdown:hover .dropdown-content {
+  display: block;
+  left: -32px;
+}
+
+/* main */
+
+main {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+main > section {
+  display: flex;
+  flex-direction: column;
+}
+
+.selectLocation-space {
+  display: flex;
+  width: 200px;
+  height: 400px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  border-left: 3px solid;
+  border-top: 1px solid;
+  border-color: var(--space-white);
+  border-radius: 10px;
+}
+
+.location {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  opacity: 0.5;
+  font-size: 20px;
+  border-bottom: 1px solid;
+  border-color: var(--space-white);
+  align-items: center;
+  justify-content: center;
+}
+.location:hover {
+  opacity: 1;
+}
+
+.map-content {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+.map-space {
+  width: 700px;
+  height: 400px;
+  background-color: var(--space-white);
+  border-radius: 10px;
+}
+
+.selectCategory-space {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.selectCategory-space > a > img {
+  width: 30px;
+}
+
+.category {
+  display: flex;
+  height: 100px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.category > img {
+  height: 30px;
+  margin: 0;
+}
+.category span {
+  color: var(--sub-gray);
+}
+
+.place-space {
+  display: grid;
+  width: 100%;
+  margin: 20px 0;
+  grid-template-columns: repeat(auto-fit, minmax(210px, max-content));
+  grid-gap: 8px;
+  justify-content: center;
+  padding: initial;
+}
+.place {
+  width: 200px;
+  height: 270px;
+  margin: 20px;
+  position: relative;
+}
+.placeImg img {
+  width: 200px;
+  height: 270px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.heart {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.heart img {
+  width: 35px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.title-cover {
+  display: flex;
+  width: 200px;
+  height: 50%;
+  position: absolute;
+  background: linear-gradient(rgba(61, 61, 61, 0), rgba(48, 48, 48, 0.582));
+  bottom: 0px;
+  border-radius: 0 0 10px 10px;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: end;
+  padding-bottom: 30px;
+}
+.title {
+  width: 90%;
+  font-size: 20px;
+}
+.title-cover div {
+  margin: 0px 15px;
+}
+.cover div div {
+  color: white;
+}
+.title-cover:hover {
+  display: flex;
+  width: 200px;
+  height: 70%;
+  position: absolute;
+  background: linear-gradient(rgba(61, 61, 61, 0), rgba(48, 48, 48, 0.863));
+  bottom: 0px;
+  border-radius: 0 0 10px 10px;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: end;
+  padding-bottom: 30px;
+  transition: 0.3s;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  margin-top: 50px;
+  padding: 20px 0;
+  background-color: var(--sub-gray);
+  color: white;
+  text-align: center;
+  font-size: small;
+}
+#footerLogo {
+  width: 110px;
+  margin: 15px;
+}
+footer a {
+  margin: 15px;
+}
+footer p {
+  color: white;
+  margin-top: 20px;
+}

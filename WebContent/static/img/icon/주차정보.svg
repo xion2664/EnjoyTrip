@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g id="noun-parking-spot-3552463" transform="translate(-18 -18)">
+    <g id="그룹_25" data-name="그룹 25">
+      <path id="패스_38" data-name="패스 38" d="M46,58h6a12,12,0,0,0,0-24H38V66h8Zm0-16h6a4,4,0,0,1,0,8H46Z" fill="#585858"/>
+      <path id="패스_39" data-name="패스 39" d="M30,82H70A12,12,0,0,0,82,70V30A12,12,0,0,0,70,18H30A12,12,0,0,0,18,30V70A12,12,0,0,0,30,82ZM26,30a4,4,0,0,1,4-4H70a4,4,0,0,1,4,4V70a4,4,0,0,1-4,4H30a4,4,0,0,1-4-4Z" fill="#585858"/>
+    </g>
+  </g>
+</svg>

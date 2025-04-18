@@ -1,0 +1,70 @@
+:root {
+  --main-red: #e04141;
+  --sub-gray: #585858;
+  --space-white: #f3f3f3;
+  --font-black: #1a1a1a;
+}
+* {
+  color: var(--font-black);
+}
+
+/* main */
+
+main {
+  display: flex;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 30px;
+  flex-direction: column;
+}
+.mainContent {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.mainContent div {
+  width: 100%;
+}
+.mainImg {
+  margin-right: 10px;
+}
+#mainImg {
+  width: 100%;
+  border-radius: 10px;
+}
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.title {
+  margin-bottom: 5px;
+}
+.phone,
+.page,
+.page a,
+.address {
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+.info {
+  margin-top: 10px;
+}
+
+.imgs {
+  border-radius: 10px;
+}
+#imgs {
+  width: 100%;
+  border-radius: 10px;
+}

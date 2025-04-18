@@ -1,0 +1,41 @@
+:root {
+  --main-red: #e04141;
+  --sub-gray: #585858;
+  --space-white: #f3f3f3;
+  --font-black: #1a1a1a;
+}
+* {
+  color: var(--font-black);
+}
+
+.reviewContent {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+form {
+  width: 100%;
+}
+.inputText {
+  width: 100%;
+}
+
+.review {
+  margin: 20px 0;
+}
+.reviewList {
+  width: 100%;
+}
+.reviewTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 20px;
+}
+.reviewBtm {
+  margin-top: 10px;
+  font-size: 15px;
+}
